@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "seqreads"
-version = "0.0.0"
+version = "0.0.1"
 description = "seqreads"
 readme = "README.rst"
 authors = [
@@ -23,3 +23,7 @@ requires-python = ">=3.11"
 
 [project.license]
 file = "LICENSE.txt"
+
+[project.urls]
+Source = "https://github.com/johannes-programming/seqreads"
+Download = "https://pypi.org/project/seqreads/#files"
