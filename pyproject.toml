@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "seqreads"
-version = "0.0.1"
+version = "0.1.0"
 description = "seqreads"
 readme = "README.rst"
 authors = [
@@ -18,7 +18,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = []
-dependencies = []
+dependencies = [
+    "na_quantors>=1.0",
+    "Bio>=1.6",
+]
 requires-python = ">=3.11"
 
 [project.license]
