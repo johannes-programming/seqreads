@@ -21,6 +21,12 @@ License
 
 This project is licensed under the MIT License.
 
+Links
+-----
+
+* `Download <https://pypi.org/project/seqreads/#files>`_
+* `Source <https://github.com/johannes-programming/seqreads>`_ 
+
 Credits
 -------
 - Author: Johannes
