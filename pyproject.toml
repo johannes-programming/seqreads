@@ -1,32 +1,35 @@
 [build-system]
+build-backend = "setuptools.build_meta"
 requires = [
     "setuptools>=61.0.0",
 ]
-build-backend = "setuptools.build_meta"
 
 [project]
-name = "seqreads"
-version = "0.1.1"
-description = "seqreads"
-readme = "README.rst"
 authors = [
-    { name = "Johannes", email = "johannes-programming@posteo.net" },
+    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+    { email = "johannes-programming@posteo.net", name = "Johannes" },
 ]
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
 ]
-keywords = []
 dependencies = [
-    "na_quantors>=1.0",
     "Bio>=1.6",
+    "na_quantors>=1.0",
 ]
+description = "seqreads"
+keywords = []
+name = "seqreads"
+readme = "README.rst"
 requires-python = ">=3.11"
+version = "0.1.2"
 
 [project.license]
 file = "LICENSE.txt"
 
 [project.urls]
-Source = "https://github.com/johannes-programming/seqreads"
+Documentation = "https://pypi.org/project/seqreads"
 Download = "https://pypi.org/project/seqreads/#files"
+Source = "https://github.com/johannes-programming/seqreads"
