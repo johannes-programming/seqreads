@@ -28,7 +28,7 @@ keywords = []
 name = "seqreads"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "0.1.2+local.1"
+version = "0.1.2+local.2"
 
 [project.license]
 file = "LICENSE.txt"
